@@ -1,0 +1,26 @@
+{
+  "name": "cocote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon graphql/index.js",
+    "product-service": "nodemon product-service/index.js",
+    "order-service": "nodemon order-service/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@feathersjs/express": "^4.3.0",
+    "@feathersjs/feathers": "^4.3.0",
+    "apollo-server": "^2.9.0",
+    "body-parser": "^1.19.0",
+    "cote": "^0.20.1",
+    "express": "^4.17.1",
+    "feathers-mongoose": "^8.0.2",
+    "graphql": "^14.5.3",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.6.10"
+  }
+}

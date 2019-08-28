@@ -1,0 +1,10 @@
+- graphql structuring
+- graphql complex list query (feathers feat gql)
+- validation
+- authentication
+- Standard behavior table createdAt, updatedAt, createdBy, updatedBy
+- cote redis ENV set from .env file instead, and using script to run from package.json
+- Docker
+- authorization
+- unit test
+- node_modules should be on each services and gateway (when docker done)
