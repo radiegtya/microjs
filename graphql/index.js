@@ -1,5 +1,5 @@
 const { ApolloServer, gql, ApolloError } = require('apollo-server')
-const merge = require('lodash')
+const { merge } = require('lodash')
 const cote = require('cote')({ redis: { host: 'localhost', port: "6379" } })
 
 const { Order, orderResolvers } = require('./order')
