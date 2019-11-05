@@ -21,6 +21,6 @@
     "feathers-mongoose": "^8.0.2",
     "graphql": "^14.5.3",
     "lodash": "^4.17.15",
-    "mongoose": "^5.6.10"
+    "mongoose": "^5.7.5"
   }
 }
